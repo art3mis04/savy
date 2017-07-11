@@ -16,4 +16,15 @@
 # Enter a number to sum, or 0 to indicate you are finished: 2
 # Enter a number to sum, or 0 to indicate you are finished: 10
 # Enter a number to sum, or 0 to indicate you are finished: 0
-#The sum of your numbers is: 21
+#The sum of your numbers is 21
+sum=0
+a=raw_input ("enter a number to sum, or enter 0 to indicate you are finished:")
+a=int(a)
+sum=a
+while a > 0:
+     a=raw_input("enter a number to sum, or 0 to indicate you are finished:")
+     a=int(a)
+     sum=a+sum
+print("The sum of your numbers is:"),sum
+
+
